@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+#used for the SQL server connection
+database.ini
 
 # C extensions
 *.so
