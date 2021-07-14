@@ -158,7 +158,7 @@ def tableBuilder(tablename, columns):
     with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
         try:
             cur.execute(command)
-            print("poop")
+            print("test")
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
     conn.commit()
